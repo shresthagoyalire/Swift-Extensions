@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		657EE90A2F7BD8C00027C03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657EE8EB2F7BD8BF0027C03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657EE8F22F7BD8BF0027C03B;
+			remoteInfo = "MVVM-Shresth";
+		};
+		657EE9142F7BD8C00027C03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657EE8EB2F7BD8BF0027C03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657EE8F22F7BD8BF0027C03B;
+			remoteInfo = "MVVM-Shresth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		657EE8F32F7BD8BF0027C03B /* MVVM-Shresth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Shresth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657EE9092F7BD8C00027C03B /* MVVM-ShresthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-ShresthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657EE9132F7BD8C00027C03B /* MVVM-ShresthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-ShresthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		657EE91B2F7BD8C00027C03B /* Exceptions for "MVVM-Shresth" folder in "MVVM-Shresth" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 657EE8F22F7BD8BF0027C03B /* MVVM-Shresth */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		657EE8F52F7BD8BF0027C03B /* MVVM-Shresth */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				657EE91B2F7BD8C00027C03B /* Exceptions for "MVVM-Shresth" folder in "MVVM-Shresth" target */,
+			);
+			path = "MVVM-Shresth";
+			sourceTree = "<group>";
+		};
+		657EE90C2F7BD8C00027C03B /* MVVM-ShresthTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MVVM-ShresthTests";
+			sourceTree = "<group>";
+		};
+		657EE9162F7BD8C00027C03B /* MVVM-ShresthUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MVVM-ShresthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657EE8F02F7BD8BF0027C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657EE9062F7BD8C00027C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657EE9102F7BD8C00027C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657EE8EA2F7BD8BF0027C03B = {
+			isa = PBXGroup;
+			children = (
+				657EE8F52F7BD8BF0027C03B /* MVVM-Shresth */,
+				657EE90C2F7BD8C00027C03B /* MVVM-ShresthTests */,
+				657EE9162F7BD8C00027C03B /* MVVM-ShresthUITests */,
+				657EE8F42F7BD8BF0027C03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657EE8F42F7BD8BF0027C03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657EE8F32F7BD8BF0027C03B /* MVVM-Shresth.app */,
+				657EE9092F7BD8C00027C03B /* MVVM-ShresthTests.xctest */,
+				657EE9132F7BD8C00027C03B /* MVVM-ShresthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657EE8F22F7BD8BF0027C03B /* MVVM-Shresth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657EE91C2F7BD8C00027C03B /* Build configuration list for PBXNativeTarget "MVVM-Shresth" */;
+			buildPhases = (
+				657EE8EF2F7BD8BF0027C03B /* Sources */,
+				657EE8F02F7BD8BF0027C03B /* Frameworks */,
+				657EE8F12F7BD8BF0027C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				657EE8F52F7BD8BF0027C03B /* MVVM-Shresth */,
+			);
+			name = "MVVM-Shresth";
+			packageProductDependencies = (
+			);
+			productName = "MVVM-Shresth";
+			productReference = 657EE8F32F7BD8BF0027C03B /* MVVM-Shresth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657EE9082F7BD8C00027C03B /* MVVM-ShresthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657EE9212F7BD8C00027C03B /* Build configuration list for PBXNativeTarget "MVVM-ShresthTests" */;
+			buildPhases = (
+				657EE9052F7BD8C00027C03B /* Sources */,
+				657EE9062F7BD8C00027C03B /* Frameworks */,
+				657EE9072F7BD8C00027C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657EE90B2F7BD8C00027C03B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				657EE90C2F7BD8C00027C03B /* MVVM-ShresthTests */,
+			);
+			name = "MVVM-ShresthTests";
+			packageProductDependencies = (
+			);
+			productName = "MVVM-ShresthTests";
+			productReference = 657EE9092F7BD8C00027C03B /* MVVM-ShresthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		657EE9122F7BD8C00027C03B /* MVVM-ShresthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657EE9242F7BD8C00027C03B /* Build configuration list for PBXNativeTarget "MVVM-ShresthUITests" */;
+			buildPhases = (
+				657EE90F2F7BD8C00027C03B /* Sources */,
+				657EE9102F7BD8C00027C03B /* Frameworks */,
+				657EE9112F7BD8C00027C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657EE9152F7BD8C00027C03B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				657EE9162F7BD8C00027C03B /* MVVM-ShresthUITests */,
+			);
+			name = "MVVM-ShresthUITests";
+			packageProductDependencies = (
+			);
+			productName = "MVVM-ShresthUITests";
+			productReference = 657EE9132F7BD8C00027C03B /* MVVM-ShresthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657EE8EB2F7BD8BF0027C03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					657EE8F22F7BD8BF0027C03B = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					657EE9082F7BD8C00027C03B = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 657EE8F22F7BD8BF0027C03B;
+					};
+					657EE9122F7BD8C00027C03B = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 657EE8F22F7BD8BF0027C03B;
+					};
+				};
+			};
+			buildConfigurationList = 657EE8EE2F7BD8BF0027C03B /* Build configuration list for PBXProject "MVVM-Shresth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657EE8EA2F7BD8BF0027C03B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 657EE8F42F7BD8BF0027C03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657EE8F22F7BD8BF0027C03B /* MVVM-Shresth */,
+				657EE9082F7BD8C00027C03B /* MVVM-ShresthTests */,
+				657EE9122F7BD8C00027C03B /* MVVM-ShresthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657EE8F12F7BD8BF0027C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657EE9072F7BD8C00027C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657EE9112F7BD8C00027C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657EE8EF2F7BD8BF0027C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657EE9052F7BD8C00027C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657EE90F2F7BD8C00027C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657EE90B2F7BD8C00027C03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657EE8F22F7BD8BF0027C03B /* MVVM-Shresth */;
+			targetProxy = 657EE90A2F7BD8C00027C03B /* PBXContainerItemProxy */;
+		};
+		657EE9152F7BD8C00027C03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657EE8F22F7BD8BF0027C03B /* MVVM-Shresth */;
+			targetProxy = 657EE9142F7BD8C00027C03B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		657EE91D2F7BD8C00027C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM-Shresth/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shrestha.MVVM-Shresth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		657EE91E2F7BD8C00027C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM-Shresth/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shrestha.MVVM-Shresth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		657EE91F2F7BD8C00027C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657EE9202F7BD8C00027C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657EE9222F7BD8C00027C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shrestha.MVVM-ShresthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-Shresth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM-Shresth";
+			};
+			name = Debug;
+		};
+		657EE9232F7BD8C00027C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shrestha.MVVM-ShresthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-Shresth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM-Shresth";
+			};
+			name = Release;
+		};
+		657EE9252F7BD8C00027C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shrestha.MVVM-ShresthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-Shresth";
+			};
+			name = Debug;
+		};
+		657EE9262F7BD8C00027C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 567N8A9Y75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shrestha.MVVM-ShresthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-Shresth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657EE8EE2F7BD8BF0027C03B /* Build configuration list for PBXProject "MVVM-Shresth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657EE91F2F7BD8C00027C03B /* Debug */,
+				657EE9202F7BD8C00027C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657EE91C2F7BD8C00027C03B /* Build configuration list for PBXNativeTarget "MVVM-Shresth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657EE91D2F7BD8C00027C03B /* Debug */,
+				657EE91E2F7BD8C00027C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657EE9212F7BD8C00027C03B /* Build configuration list for PBXNativeTarget "MVVM-ShresthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657EE9222F7BD8C00027C03B /* Debug */,
+				657EE9232F7BD8C00027C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657EE9242F7BD8C00027C03B /* Build configuration list for PBXNativeTarget "MVVM-ShresthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657EE9252F7BD8C00027C03B /* Debug */,
+				657EE9262F7BD8C00027C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657EE8EB2F7BD8BF0027C03B /* Project object */;
+}
